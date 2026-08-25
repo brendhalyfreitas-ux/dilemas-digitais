@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dilemas Digitais</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f2f5f9;
+            color: #183C63;
+        }
+
+        header {
+            background-color: #183C63;
+            color: white;
+            text-align: center;
+            max-width: 1000px;
+            margin: 0 auto 30px auto;
+            padding: 30px 20px;
+            border-radius: 0 0 15px 15px;
+        }
+
+        header h1 {
+            margin: 0 0 10px;
+            font-size: 38px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        header button {
+            margin: 10px 5px;
+        }
+
+        main {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        article {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 25px;
+            background-color: white;
+            padding: 25px;
+            border-radius: 15px;
+            width: 90%;
+            max-width: 1000px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.10);
+        }
+
+        article div:first-child {
+            flex: 1;
+        }
+
+        article h2 {
+            color: #183C63;
+            margin-top: 5px;
+        }
+
+        article p {
+            line-height: 1.6;
+        }
+
+        .artigo-autor {
+            font-weight: bold;
+            color: #6b4c68;
+        }
+
+        .problema {
+            color: #b83232;
+            font-weight: bold;
+        }
+
+        .solucao {
+            background-color: #e2f4e8;
+            border-left: 5px solid #2e8b57;
+            padding: 12px;
+            border-radius: 8px;
+        }
+
+        .imagem {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 12px;
+        }
+
+        button {
+            background-color: #d4adcf;
+            border: none;
+            border-radius: 20px;
+            padding: 8px 15px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: 0.2s;
+        }
+
+        button:hover {
+            background-color: #b98db2;
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: #183C63;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 700px) {
+            article {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .imagem {
+                width: 150px;
+                height: 150px;
+            }
+
+            .solucao {
+                text-align: left;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>🌐 Dilemas Digitais</h1>
+
+        <p>
+            Problemas encontrados na internet e soluções para tornar
+            nossa vida digital mais segura e saudável.
+        </p>
+
+        <button class="reacao">
+            ❤️ <span>0</span>
+        </button>
+
+        <button class="reacao">
+            👍 <span>0</span>
+        </button>
+    </header>
+
+
+    <!-- DILEMA 1 -->
+    <main>
+        <article>
+
+            <div>
+                <h2>🔐 1. Exposição de dados pessoais</h2>
+
+                <p class="artigo-autor">
+                    Por: Alexandra
+                </p>
+
+                <p>
+                    <span class="problema">O problema:</span>
+                    Muitas pessoas compartilham informações pessoais na
+                    internet, como endereço, telefone, documentos e até
+                    localização em tempo real.
+                </p>
+
+                <p>
+                    Essas informações podem ser utilizadas por pessoas
+                    mal-intencionadas para aplicar golpes ou invadir contas.
+                </p>
+
+                <p class="solucao">
+                    <strong>💡 Solução:</strong>
+                    Evite publicar informações pessoais. Utilize senhas
+                    fortes, ative a autenticação em dois fatores e confira
+                    as configurações de privacidade das suas redes sociais.
+                </p>
+
+                <button class="reacao">
+                    ❤️ <span>0</span>
+                </button>
+
+                <button class="reacao">
+                    👍 <span>0</span>
+                </button>
+            </div>
+
+            <div>
+                <div class="imagem"
+                    style="background-color:#d4adcf; display:flex; align-items:center; justify-content:center; font-size:70px;">
+                    🔐
+                </div>
+            </div>
+
+        </article>
+    </main>
+
+
+    <!-- DILEMA 2 -->
+    <main>
+        <article>
+
+            <div>
+                <h2>📰 2. Fake news e desinformação</h2>
+
+                <p class="artigo-autor">
+                    Por: Alexandra
+                </p>
+
+                <p>
+                    <span class="problema">O problema:</span>
+                    Notícias falsas podem se espalhar rapidamente pelas
+                    redes sociais e aplicativos de mensagens.
+                </p>
+
+                <p>
+                    Compartilhar uma informação sem verificar sua origem
+                    pode ajudar a espalhar informações incorretas.
+                </p>
+
+                <p class="solucao">
+                    <strong>💡 Solução:</strong>
+                    Antes de compartilhar uma notícia, confira quem publicou,
+                    procure a mesma informação em fontes confiáveis e observe
+                    a data da publicação.
+                </p>
+
+                <button class="reacao">
+                    ❤️ <span>0</span>
+                </button>
+
+                <button class="reacao">
+                    👍 <span>0</span>
+                </button>
+            </div>
+
+            <div>
+                <div class="imagem"
+                    style="background-color:#d4adcf; display:flex; align-items:center; justify-content:center; font-size:70px;">
+                    📰
+                </div>
+            </div>
+
+        </article>
+    </main>
+
+
+    <!-- DILEMA 3 -->
+    <main>
+        <article>
+
+            <div>
+                <h2>💬 3. Cyberbullying</h2>
+
+                <p class="artigo-autor">
+                    Por: Alexandra
+                </p>
+
+                <p>
+                    <span class="problema">O problema:</span>
+                    Comentários ofensivos, ameaças e humilhações podem
+                    acontecer em redes sociais, jogos e aplicativos de
+                    mensagens.
+                </p>
+
+                <p>
+                    O ambiente virtual não deve ser usado como desculpa
+                    para desrespeitar outras pessoas.
+                </p>
+
+                <p class="solucao">
+                    <strong>💡 Solução:</strong>
+                    Não responda às agressões com mais agressões.
+                    Bloqueie e denuncie o perfil, guarde provas das
+                    mensagens e procure ajuda de alguém de confiança.
+                </p>
+
+                <button class="reacao">
+                    ❤️ <span>0</span>
+                </button>
+
+                <button class="reacao">
+                    👍 <span>0</span>
+                </button>
+            </div>
+
+            <div>
+                <div class="imagem"
+                    style="background-color:#d4adcf; display:flex; align-items:center; justify-content:center; font-size:70px;">
+                    💬
+                </div>
+            </div>
+
+        </article>
+    </main>
+
+
+    <!-- DILEMA 4 -->
+    <main>
+        <article>
+
+            <div>
+                <h2>⏰ 4. Uso excessivo da internet</h2>
+
+                <p class="artigo-autor">
+                    Por: Alexandra
+                </p>
+
+                <p>
+                    <span class="problema">O problema:</span>
+                    Passar muitas horas nas redes sociais, jogos ou vídeos
+                    pode prejudicar a concentração e atrapalhar atividades
+                    importantes do dia a dia.
+                </p>
+
+                <p class="solucao">
+                    <strong>💡 Solução:</strong>
+                    Estabeleça horários para usar dispositivos, faça pausas
+                    durante o dia e reserve momentos para atividades fora
+                    das telas, como exercícios, estudos, hobbies e encontros
+                    com amigos.
+                </p>
+
+                <button class="reacao">
+                    ❤️ <span>0</span>
+                </button>
+
+                <button class="reacao">
+                    👍 <span>0</span>
+                </button>
+            </div>
+
+            <div>
+                <div class="imagem"
+                    style="background-color:#d4adcf; display:flex; align-items:center; justify-content:center; font-size:70px;">
+                    ⏰
+                </div>
+            </div>
+
+        </article>
+    </main>
+
+
+    <!-- DILEMA 5 -->
+    <main>
+        <article>
+
+            <div>
+                <h2>🎣 5. Golpes e phishing</h2>
+
+                <p class="artigo-autor">
+                    Por: Alexandra
+                </p>
+
+                <p>
+                    <span class="problema">O problema:</span>
+                    Golpistas podem enviar mensagens falsas tentando fazer
+                    com que a pessoa clique em links ou forneça senhas,
+                    códigos e dados bancários.
+                </p>
+
+                <p class="solucao">
+                    <strong>💡 Solução:</strong>
+                    Desconfie de mensagens urgentes, não clique em links
+                    suspeitos e nunca informe senhas ou códigos de segurança
+                    para terceiros. Quando receber uma mensagem estranha,
+                    procure o site oficial da empresa por conta própria.
+                </p>
+
+                <button class="reacao">
+                    ❤️ <span>0</span>
+                </button>
+
+                <button class="reacao">
+                    👍 <span>0</span>
+                </button>
+            </div>
+
+            <div>
+                <div class="imagem"
+                    style="background-color:#d4adcf; display:flex; align-items:center; justify-content:center; font-size:70px;">
+                    🎣
+                </div>
+            </div>
+
+        </article>
+    </main>
+
+
+    <footer>
+        <p>
+            © 2026 Dilemas Digitais | Desenvolvido por Alexandra
+        </p>
+
+        <p>
+            Pense antes de clicar, compartilhar ou publicar. 💙
+        </p>
+    </footer>
+
+
+    <script>
+
+        // Seleciona todos os botões de reação
+        const botoes = document.querySelectorAll(".reacao");
+
+        // Adiciona uma função para cada botão
+        botoes.forEach(function (botao) {
+
+            let curtiu = false;
+
+            botao.addEventListener("click", function () {
+
+                let texto = botao.querySelector("span");
+
+                if (curtiu === false) {
+
+                    texto.textContent = Number(texto.textContent) + 1;
+
+                    curtiu = true;
+
+                } else {
+
+                    texto.textContent = Number(texto.textContent) - 1;
+
+                    curtiu = false;
+                }
+
+            });
+
+        });
+
+    </script>
+
+</body>
+
+</html>
